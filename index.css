@@ -1,2 +1,138 @@
 
+*{
+    margin:0;
+    padding:0;
+    font-family:san-serif,verdana;
+}
+#head{
+    width:100%;
+    margin:0;
+    background:hsla(0, 0%, 50%, 0.08);
+}
+#head h3{
+   display:flex;
+   align-self:center;
+   justify-self:center;
+   margin:3%;
+   padding:3%;
+   background:hsla(0, 0%, 50%, 0.08);
+   box-shadow:4px 4px 10px hsla(0, 0%, 50%, 0.8);
+   font-style:italic;
+   
+   
+}
+li{
+    
+    margin:20px
+    padding:30px;
+    font-size:20px;
+    font-family:609;
+  }
+  ol  {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    list-style-type:none;
+    margin:10px 2px;
+    padding:20px;
+    background :hsla(10, 30%, 60%, 0.9);
+ 
+}
+a{
+    margin:1%;
+    text-decoration:none;
+    color:red;
+    }
+#bodyitem{
 
+right:50%;
+top:50vh;
+    
+}
+#bodyprofile{
+    Backbackground: green;
+    display:none;
+    
+}
+#bodyprofile img{
+    border-radius:10px;
+    transition:0.3s;
+    float:right;
+}
+#bodyprofile img:hover{
+   width:200px;
+   height:350px;
+   margin-right:20px;
+   transform:scale(1.5);
+}
+#profileid p {
+margin:10px;
+padding :10px;
+font-size:20px;
+font-weight:600;
+
+    
+}
+#myproject h2{
+text-align:center;
+padding:10px;
+background:rgba(250, 0, 0, 0.2);
+color:rgba(205, 50, 300,0.9);
+font-size:30px;
+}
+#project1{
+    width:200px;
+    height:150px;
+    border:2px solid hsla(0, 0%, 30%, 0.08);
+    justify-self:center;
+    background:url("cloud.jpg");
+    background-repeat: no-repeat;
+    margin:5px;
+}
+
+#project1 h3{
+    padding:3rem;
+    font-size:20px;
+    font-style:bold;
+}
+#project2{
+    width:200px;
+    height:150px;
+    border:2px solid hsla(0, 0%, 30%, 0.08);
+    justify-self:center;
+    background:url("cloud.jpg");
+    background-repeat: no-repeat;
+    margin:5px;
+}
+#project2 h3{
+    padding:3rem;
+    font-size:20px;
+    font-style:bold;
+}
+
+#project3{
+    width:200px;
+    height:150px;
+    border:2px solid hsla(0, 0%, 30%, 0.08);
+    justify-self:center;
+    background:url("cloud.jpg");
+    background-repeat: no-repeat;
+    margin:5px;
+}
+
+#project3 h3{
+    padding:3rem;
+    font-size:20px;
+    font-style:bold;
+}
+#appreciation{
+    border:none;
+    box-shadow:4px 4px 10px hsla(0, 0%, 50%, 0.8);
+    margin:10px
+}
+#appreciation h3{
+    padding:10px;
+    line-height:30px;
+    text-align:center;
+    font-style:italic;
+}
