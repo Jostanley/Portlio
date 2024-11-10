@@ -1,13 +1,144 @@
-<!DOCTYPE html>
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <title>Page title</title>
+    <Link rel="stylesheet" href="index.css">
+   <!-- <script src="index.js"></script>-->
 </head>
 <body>
-  <div>
-    <img src=""
-  </div>
+    <div id="root">
+        <div id="head">
+            <h3>welcome to jostanley Ejike website </h3>
+            <div id="nav">
+                <ol>
+                <li>
+                    <a href="JavaScript:void(0)" onClick="showprofile()">profile</a>
+                    
+                </li>
+                <li>
+                    <a href="JavaScript:void(0)" onClick="myproject()">projects</a>
+                    
+                </li>
+             
+                <li>
+                    <a href="JavaScript:void(0)" onClick="appreciate ()">appreciation</a>
+                    
+                </li>
+                
+                </ol>
+            </div>
+        </div>
+       
+        </div>
+       <div id="mymargin">
+        <div id="bodyprofile" style="display:none">
+            
+            <img src="mypicture.jpg" alt="my profile picture" width="100px" height="100px">
+       
+        <div id="profileid">
+        <p>name: jostanley Ejike Nwode </p>
+        <p>Age: 22 year's</p>
+        <p>Marital status: single</p>
+        <p>Location: Accra Ghana </p>
+        <p>occupation : interprenuer</p>
+        <p>Skills : front end designer, front end developer, full stack developer, website developer drummer, graphic designer</p>
+        <p>Work experience: 2 years </p>
+        <p>Hobby: creative works, Listening to music , reading, </p>
+        <p>Project: visit <a href="JavaScript:void(0)" onClick="myproject()">my project</a></p>
+     </div>   
+ </div>
+ </div>
+ 
+   <div id="mymargin2">
+    <div id="myproject">
+        <h2>this are some of my project </h2>
+        <div id="project1">
+           <h3 id="ecomerce"> ecomerce app</h3> 
+        </div>
+      
+        
+        <div id="project2">
+            <h3>simple calculator </h3>
+        </div>
+     
+     
+        <div id="project3">
+            <h3>simple todo list</h3>
+        </div>
+        
+      
+    </div>
+    <div id="appreciation">
+        <h3>
+             I so much than God<br> the father,son and holy Spirit who lead me<br> through the courses i took to be<br> able to make this work happen.
+              
+              And also special thanks to my<br> brother and sister, dad and mom,<br> family and friends, who's support lead <br>
+              and inspired 
+me.And by the special <br> grace of God, this will be the  beginning <br> of my exploit in tech development
+and an inspiration  to everyone  out there, who is really  having the burning desire and passion that you can do it
+thanks to everyone  for everything  through christ our lord<br>
+<br>
+ <spn>Amen</spn></h3>
+        
+    </div>
+   
+   <script>
+       const bodyprofile = document.querySelector("#bodyprofile");
+       let project = document.querySelector("#myproject")
+       const appreciation = document.querySelector("#appreciation")
+
+ function showprofile(){
+    bodyprofile.style.display = "block";
+    project.style.display = "none";
+    appreciation.style.display= "none";
+     
+   
+ }
+ window.addEventListener("load",showprofile())
+ 
+ 
+ 
+ function myproject(){
+     bodyprofile.style.display= "none";
+     project.style.display = "block";
+     appreciation.style.display= "none";
+ }
+ function appreciate(){
+     bodyprofile.style.display= "none";
+     project.style.display = "none";
+     appreciation.style.display= "block";
+     }
+ 
+ const project1 = document.querySelector("#project1")
+ const project2 = document.querySelector("#project2")
+ const project3 = document.querySelector("#project3")
+ 
+ project1.addEventListener("click", function(){
+ const found = false;
+     if(!found){
+     alert( "sorry the project is not ready");
+    
+         }
+     })
+     project2.addEventListener("click", function(){
+ const found = false;
+     if(!found){
+     alert( "sorry the project is not ready");
+    
+         }
+     })
+     project3.addEventListener("click", function(){
+ const found = false;
+     if(!found){
+     alert( "sorry the project is not ready");
+    
+         }
+     })
+   </script> 
+   </div>
+
 </body>
 </html>
